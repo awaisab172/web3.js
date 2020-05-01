@@ -1,0 +1,100 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - lodash:
+        patched: '2020-05-01T06:24:17.933Z'
+    - web3-core-method > lodash:
+        patched: '2020-05-01T06:24:17.933Z'
+    - web3-utils > lodash:
+        patched: '2020-05-01T06:24:17.933Z'
+    - web3-providers > lodash:
+        patched: '2020-05-01T06:24:17.933Z'
+    - web3-core-method > web3-core > lodash:
+        patched: '2020-05-01T06:24:17.933Z'
+    - web3-providers > web3-core > lodash:
+        patched: '2020-05-01T06:24:17.933Z'
+    - web3-providers > web3-core-method > lodash:
+        patched: '2020-05-01T06:24:17.933Z'
+    - web3-core-method > web3-utils > lodash:
+        patched: '2020-05-01T06:24:17.933Z'
+    - web3-providers > web3-utils > lodash:
+        patched: '2020-05-01T06:24:17.933Z'
+    - web3-core-method > web3-core-helpers > lodash:
+        patched: '2020-05-01T06:24:17.933Z'
+    - web3-providers > web3-core-helpers > lodash:
+        patched: '2020-05-01T06:24:17.933Z'
+    - web3-core-method > web3-core-subscriptions > lodash:
+        patched: '2020-05-01T06:24:17.933Z'
+    - web3-core-method > web3-core-helpers > web3-core > lodash:
+        patched: '2020-05-01T06:24:17.933Z'
+    - web3-providers > web3-core-helpers > web3-core > lodash:
+        patched: '2020-05-01T06:24:17.933Z'
+    - web3-providers > web3-core-method > web3-core > lodash:
+        patched: '2020-05-01T06:24:17.933Z'
+    - web3-providers > web3-core > web3-core-method > lodash:
+        patched: '2020-05-01T06:24:17.933Z'
+    - web3-core-method > web3-core > web3-utils > lodash:
+        patched: '2020-05-01T06:24:17.933Z'
+    - web3-providers > web3-core > web3-utils > lodash:
+        patched: '2020-05-01T06:24:17.933Z'
+    - web3-providers > web3-core-method > web3-utils > lodash:
+        patched: '2020-05-01T06:24:17.933Z'
+    - web3-core-method > web3-core-helpers > web3-utils > lodash:
+        patched: '2020-05-01T06:24:17.933Z'
+    - web3-providers > web3-core-helpers > web3-utils > lodash:
+        patched: '2020-05-01T06:24:17.933Z'
+    - web3-providers > web3-core-method > web3-core-helpers > lodash:
+        patched: '2020-05-01T06:24:17.933Z'
+    - web3-core-method > web3-core > web3-providers > lodash:
+        patched: '2020-05-01T06:24:17.933Z'
+    - web3-providers > web3-core-method > web3-core-subscriptions > lodash:
+        patched: '2020-05-01T06:24:17.933Z'
+    - web3-providers > web3-core-method > web3-core-helpers > web3-core > lodash:
+        patched: '2020-05-01T06:24:17.933Z'
+    - web3-providers > web3-core-helpers > web3-core > web3-core-method > lodash:
+        patched: '2020-05-01T06:24:17.933Z'
+    - web3-core-method > web3-core-helpers > web3-core > web3-utils > lodash:
+        patched: '2020-05-01T06:24:17.933Z'
+    - web3-providers > web3-core-helpers > web3-core > web3-utils > lodash:
+        patched: '2020-05-01T06:24:17.933Z'
+    - web3-providers > web3-core-method > web3-core > web3-utils > lodash:
+        patched: '2020-05-01T06:24:17.933Z'
+    - web3-providers > web3-core > web3-core-method > web3-utils > lodash:
+        patched: '2020-05-01T06:24:17.933Z'
+    - web3-core-method > web3-core-helpers > web3-eth-iban > web3-utils > lodash:
+        patched: '2020-05-01T06:24:17.933Z'
+    - web3-providers > web3-core-helpers > web3-eth-iban > web3-utils > lodash:
+        patched: '2020-05-01T06:24:17.933Z'
+    - web3-providers > web3-core-method > web3-core-helpers > web3-utils > lodash:
+        patched: '2020-05-01T06:24:17.933Z'
+    - web3-core-method > web3-core > web3-providers > web3-utils > lodash:
+        patched: '2020-05-01T06:24:17.933Z'
+    - web3-providers > web3-core > web3-core-method > web3-core-helpers > lodash:
+        patched: '2020-05-01T06:24:17.933Z'
+    - web3-core-method > web3-core > web3-providers > web3-core-helpers > lodash:
+        patched: '2020-05-01T06:24:17.933Z'
+    - web3-core-method > web3-core-helpers > web3-core > web3-providers > lodash:
+        patched: '2020-05-01T06:24:17.933Z'
+    - web3-providers > web3-core > web3-core-method > web3-core-subscriptions > lodash:
+        patched: '2020-05-01T06:24:17.933Z'
+    - web3-providers > web3-core-method > web3-core-helpers > web3-core > web3-utils > lodash:
+        patched: '2020-05-01T06:24:17.933Z'
+    - web3-providers > web3-core-helpers > web3-core > web3-core-method > web3-utils > lodash:
+        patched: '2020-05-01T06:24:17.933Z'
+    - web3-providers > web3-core-method > web3-core-helpers > web3-eth-iban > web3-utils > lodash:
+        patched: '2020-05-01T06:24:17.933Z'
+    - web3-providers > web3-core > web3-core-method > web3-core-helpers > web3-utils > lodash:
+        patched: '2020-05-01T06:24:17.933Z'
+    - web3-core-method > web3-core > web3-providers > web3-core-helpers > web3-utils > lodash:
+        patched: '2020-05-01T06:24:17.933Z'
+    - web3-core-method > web3-core-helpers > web3-core > web3-providers > web3-utils > lodash:
+        patched: '2020-05-01T06:24:17.933Z'
+    - web3-providers > web3-core-helpers > web3-core > web3-core-method > web3-core-subscriptions > lodash:
+        patched: '2020-05-01T06:24:17.933Z'
+    - web3-providers > web3-core > web3-core-method > web3-core-helpers > web3-eth-iban > web3-utils > lodash:
+        patched: '2020-05-01T06:24:17.933Z'
+    - web3-core-method > web3-core > web3-providers > web3-core-helpers > web3-eth-iban > web3-utils > lodash:
+        patched: '2020-05-01T06:24:17.933Z'
