@@ -29,7 +29,7 @@
         "web3-eth-abi": "2.0.0-alpha.1",
         "web3-eth-accounts": "2.0.0-alpha.1",
         "web3-providers": "2.0.0-alpha.1",
-        "web3-utils": "2.0.0-alpha.1"
+        "web3-utils": "4.2.1"
     },
     "devDependencies": {
         "definitelytyped-header-parser": "^1.0.1",
