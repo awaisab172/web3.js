@@ -22,7 +22,7 @@
         "@babel/runtime": "^7.3.1",
         "browserify-cipher": "^1.0.1",
         "eth-lib": "0.2.8",
-        "lodash": "^4.17.11",
+        "lodash": "^4.17.17",
         "pbkdf2": "^3.0.17",
         "randombytes": "^2.1.0",
         "scrypt-shim": "github:web3-js/scrypt-shim",
