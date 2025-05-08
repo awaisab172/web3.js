@@ -18,7 +18,7 @@
         "test:watch": "jest --watchAll"
     },
     "dependencies": {
-        "@babel/runtime": "^7.3.1",
+        "@babel/runtime": "^7.26.10",
         "eventemitter3": "^4.0.0",
         "lodash": "^4.17.11"
     },
