@@ -19,7 +19,7 @@
         "dtslint": "dtslint types --onlyTestTsNext"
     },
     "dependencies": {
-        "@babel/runtime": "^7.3.1",
+        "@babel/runtime": "^7.26.10",
         "browserify-cipher": "^1.0.1",
         "eth-lib": "0.2.8",
         "lodash": "^4.17.11",
