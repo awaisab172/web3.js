@@ -1,0 +1,158 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - web3-providers > web3-core-method > web3-core > web3-providers > lodash:
+        patched: '2026-01-20T01:54:32.833Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          web3-providers > web3-core-method > web3-core > web3-providers >
+          lodash
+    - web3-providers > web3-core-helpers > web3-core > web3-providers > lodash:
+        patched: '2026-01-20T01:54:32.833Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          web3-providers > web3-core-helpers > web3-core > web3-providers >
+          lodash
+    - web3-providers > web3-core > web3-core-method > web3-core-helpers > web3-core > lodash:
+        patched: '2026-01-20T01:54:32.833Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          web3-providers > web3-core > web3-core-method > web3-core-helpers >
+          web3-core > lodash
+    - web3-providers > web3-core-method > web3-core > web3-providers > web3-utils > lodash:
+        patched: '2026-01-20T01:54:32.833Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          web3-providers > web3-core-method > web3-core > web3-providers >
+          web3-utils > lodash
+    - web3-providers > web3-core-helpers > web3-core > web3-providers > web3-utils > lodash:
+        patched: '2026-01-20T01:54:32.833Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          web3-providers > web3-core-helpers > web3-core > web3-providers >
+          web3-utils > lodash
+    - web3-providers > web3-core-method > web3-core > web3-providers > web3-core-helpers > lodash:
+        patched: '2026-01-20T01:54:32.833Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          web3-providers > web3-core-method > web3-core > web3-providers >
+          web3-core-helpers > lodash
+    - web3-core-method > web3-core-helpers > web3-core > web3-providers > web3-core-helpers > lodash:
+        patched: '2026-01-20T01:54:32.833Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          web3-core-method > web3-core-helpers > web3-core > web3-providers >
+          web3-core-helpers > lodash
+    - web3-providers > web3-core-helpers > web3-core > web3-providers > web3-core-helpers > lodash:
+        patched: '2026-01-20T01:54:32.833Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          web3-providers > web3-core-helpers > web3-core > web3-providers >
+          web3-core-helpers > lodash
+    - web3-providers > web3-core-method > web3-core-helpers > web3-core > web3-providers > lodash:
+        patched: '2026-01-20T01:54:32.833Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          web3-providers > web3-core-method > web3-core-helpers > web3-core >
+          web3-providers > lodash
+    - web3-providers > web3-core > web3-core-method > web3-core-helpers > web3-core > web3-utils > lodash:
+        patched: '2026-01-20T01:54:32.833Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          web3-providers > web3-core > web3-core-method > web3-core-helpers >
+          web3-core > web3-utils > lodash
+    - web3-providers > web3-core-method > web3-core > web3-providers > web3-core-helpers > web3-utils > lodash:
+        patched: '2026-01-20T01:54:32.833Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          web3-providers > web3-core-method > web3-core > web3-providers >
+          web3-core-helpers > web3-utils > lodash
+    - web3-core-method > web3-core-helpers > web3-core > web3-providers > web3-core-helpers > web3-utils > lodash:
+        patched: '2026-01-20T01:54:32.833Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          web3-core-method > web3-core-helpers > web3-core > web3-providers >
+          web3-core-helpers > web3-utils > lodash
+    - web3-providers > web3-core-helpers > web3-core > web3-providers > web3-core-helpers > web3-utils > lodash:
+        patched: '2026-01-20T01:54:32.833Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          web3-providers > web3-core-helpers > web3-core > web3-providers >
+          web3-core-helpers > web3-utils > lodash
+    - web3-providers > web3-core-method > web3-core-helpers > web3-core > web3-providers > web3-utils > lodash:
+        patched: '2026-01-20T01:54:32.833Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          web3-providers > web3-core-method > web3-core-helpers > web3-core >
+          web3-providers > web3-utils > lodash
+    - web3-providers > web3-core-method > web3-core-helpers > web3-core > web3-providers > web3-core-helpers > lodash:
+        patched: '2026-01-20T01:54:32.833Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          web3-providers > web3-core-method > web3-core-helpers > web3-core >
+          web3-providers > web3-core-helpers > lodash
+    - web3-providers > web3-core > web3-core-method > web3-core-helpers > web3-core > web3-providers > lodash:
+        patched: '2026-01-20T01:54:32.833Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          web3-providers > web3-core > web3-core-method > web3-core-helpers >
+          web3-core > web3-providers > lodash
+    - web3-providers > web3-core-method > web3-core > web3-providers > web3-core-helpers > web3-eth-iban > web3-utils > lodash:
+        patched: '2026-01-20T01:54:32.833Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          web3-providers > web3-core-method > web3-core > web3-providers >
+          web3-core-helpers > web3-eth-iban > web3-utils > lodash
+    - web3-core-method > web3-core-helpers > web3-core > web3-providers > web3-core-helpers > web3-eth-iban > web3-utils > lodash:
+        patched: '2026-01-20T01:54:32.833Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          web3-core-method > web3-core-helpers > web3-core > web3-providers >
+          web3-core-helpers > web3-eth-iban > web3-utils > lodash
+    - web3-providers > web3-core-helpers > web3-core > web3-providers > web3-core-helpers > web3-eth-iban > web3-utils > lodash:
+        patched: '2026-01-20T01:54:32.833Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          web3-providers > web3-core-helpers > web3-core > web3-providers >
+          web3-core-helpers > web3-eth-iban > web3-utils > lodash
+    - web3-providers > web3-core-method > web3-core-helpers > web3-core > web3-providers > web3-core-helpers > web3-utils > lodash:
+        patched: '2026-01-20T01:54:32.833Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          web3-providers > web3-core-method > web3-core-helpers > web3-core >
+          web3-providers > web3-core-helpers > web3-utils > lodash
+    - web3-providers > web3-core > web3-core-method > web3-core-helpers > web3-core > web3-providers > web3-utils > lodash:
+        patched: '2026-01-20T01:54:32.833Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          web3-providers > web3-core > web3-core-method > web3-core-helpers >
+          web3-core > web3-providers > web3-utils > lodash
+    - web3-providers > web3-core > web3-core-method > web3-core-helpers > web3-core > web3-providers > web3-core-helpers > lodash:
+        patched: '2026-01-20T01:54:32.833Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          web3-providers > web3-core > web3-core-method > web3-core-helpers >
+          web3-core > web3-providers > web3-core-helpers > lodash
+    - web3-providers > web3-core-method > web3-core-helpers > web3-core > web3-providers > web3-core-helpers > web3-eth-iban > web3-utils > lodash:
+        patched: '2026-01-20T01:54:32.833Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          web3-providers > web3-core-method > web3-core-helpers > web3-core >
+          web3-providers > web3-core-helpers > web3-eth-iban > web3-utils >
+          lodash
+    - web3-providers > web3-core > web3-core-method > web3-core-helpers > web3-core > web3-providers > web3-core-helpers > web3-utils > lodash:
+        patched: '2026-01-20T01:54:32.833Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          web3-providers > web3-core > web3-core-method > web3-core-helpers >
+          web3-core > web3-providers > web3-core-helpers > web3-utils > lodash
+    - web3-providers > web3-core > web3-core-method > web3-core-helpers > web3-core > web3-providers > web3-core-helpers > web3-eth-iban > web3-utils > lodash:
+        patched: '2026-01-20T01:54:32.833Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          web3-providers > web3-core > web3-core-method > web3-core-helpers >
+          web3-core > web3-providers > web3-core-helpers > web3-eth-iban >
+          web3-utils > lodash
